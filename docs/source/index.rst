@@ -63,8 +63,8 @@ chaque schéma.
 +-----------------------------------+-----------------------------------+
 | `foret <./bd_pnm/foret>`__        | Données publiques issues cadastre |
 +-----------------------------------+-----------------------------------+
-| `geonature_synthese <./           | Observations géonature,           |
-|  bd_pnm/geonature_synthese>`__    | détaillées et agrégées selon      |
+| `geonature_synthese <./bd_pnm/geonature_synthese>`__           | Observations géonature,           |
+|                                   | détaillées et agrégées selon      |
 |                                   | différents critères               |
 +-----------------------------------+-----------------------------------+
 | `geotrek <./bd_pnm/geotrek>`__    | Sentiers du parc                  |
