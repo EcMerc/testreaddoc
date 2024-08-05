@@ -34,10 +34,9 @@ html_theme = 'sphinx_rtd_theme'
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 
+
+extensions = [
+    "sphinx.ext.autodoc",
+    "myst_parser",
+]
 source_suffix = ['.rst', '.md']
-
-from recommonmark.parser import CommonMarkParser
-
-source_parsers = {
-	'.md': CommonMarkParser,
-}
