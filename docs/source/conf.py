@@ -36,6 +36,8 @@ epub_show_urls = 'footnote'
 
 source_suffix = ['.rst', '.md']
 
+from recommonmark.parser import CommonMarkParser
+
 source_parsers = {
 	'.md': CommonMarkParser,
 }
