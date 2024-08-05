@@ -1,4 +1,4 @@
-﻿Données
+Données
 =======
 
 Bienvenue sur le git du Parc national du Mercantour.
@@ -47,8 +47,8 @@ chaque schéma.
 +-----------------------------------+-----------------------------------+
 | Schéma                            | Description des données           |
 +===================================+===================================+
-| `admin_express <./bd_pnm/a        | Données concernant les limites    |
-| dmin_express>`__                  | administratives (produites par    |
+| `admin_ex                         | Données concernant les limites    |
+| press <./bd_pnm/admin_express>`__ | administratives (produites par    |
 |                                   | l’IGN)                            |
 +-----------------------------------+-----------------------------------+
 | `ag_pasto <./bd_pnm/ag_pasto>`__  | Agropastoralisme                  |
@@ -63,8 +63,8 @@ chaque schéma.
 +-----------------------------------+-----------------------------------+
 | `foret <./bd_pnm/foret>`__        | Données publiques issues cadastre |
 +-----------------------------------+-----------------------------------+
-| `geonature_synthese <./bd_        | Observations géonature,           |
-| pnm/geonature_synthese>`__        | détaillées et agrégées selon      |
+| `geonature_synthese               | Observations géonature,           |
+|  <./bd_pnm/geonature_synthese>`__ | détaillées et agrégées selon      |
 |                                   | différents critères               |
 +-----------------------------------+-----------------------------------+
 | `geotrek <./bd_pnm/geotrek>`__    | Sentiers du parc                  |
@@ -108,8 +108,8 @@ du parc, et aux fonds de carte au format wms.
 | `ajout_fond_SCAN25                | Ajouter le fond SCAN25 à partir   |
 | <./tutos/ajout_fond_SCAN25.md>`__ | d’un `service wms <#wms>`__       |
 +-----------------------------------+-----------------------------------+
-| `bonnes_pratiques <./tu           | Rappel des bonnes pratiques pour  |
-|  tos/bonnes_pratiques.md>`__      | le travail informatique et sur    |
+| `bonnes_pratiques                 | Rappel des bonnes pratiques pour  |
+|  <./tutos/bonnes_pratiques.md>`__ | le travail informatique et sur    |
 |                                   | QGIS                              |
 +-----------------------------------+-----------------------------------+
 | `editer_des_polygones <./         | Édition de données vecteurs pour  |
@@ -127,8 +127,8 @@ du parc, et aux fonds de carte au format wms.
 |                                   | filtres pour ne charger qu’une    |
 |                                   | partie des entités d’une couche   |
 +-----------------------------------+-----------------------------------+
-| `generer_un_atlas <./tut          | Générer un ensemble de cartes à   |
-|  os/generer_un_atlas.md>`__       | partir d’une couche               |
+| `generer_un_atlas                 | Générer un ensemble de cartes à   |
+|  <./tutos/generer_un_atlas.md>`__ | partir d’une couche               |
 +-----------------------------------+-----------------------------------+
 | `git <./tutos/git.md>`__          | Présentation et explication de ce |
 |                                   | qu’est “git”                      |
@@ -205,24 +205,3 @@ Mise à jour
   ``schema.sql``.
 | - ``dump_project`` télécharge la version courante du projet QGIS
   depuis la base de données et l’enregistre dans ``nom_du_schema.qgs``
-
-
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
-
-Contents
---------
-
-.. toctree::
-
-   usage
-   api
