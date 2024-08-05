@@ -17,7 +17,9 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'myst_parser'
 ]
+
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
@@ -35,15 +37,5 @@ html_theme = 'sphinx_rtd_theme'
 epub_show_urls = 'footnote'
 
 
-extensions = [
-    "myst_parser",
-    "sphinx.ext.autodoc",
-    "sphinx.ext.intersphinx",
-    "sphinx.ext.viewcode",
-    "sphinxcontrib.bibtex",
-#    "sphinx_panels",
-    "sphinxext.rediraffe",
-    "sphinxcontrib.mermaid",
-    "sphinxext.opengraph",
 ]
 source_suffix = ['.rst', '.md']
