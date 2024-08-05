@@ -17,8 +17,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'myst_parser'
-]
+    'myst_parser']
 
 
 intersphinx_mapping = {
@@ -37,5 +36,5 @@ html_theme = 'sphinx_rtd_theme'
 epub_show_urls = 'footnote'
 
 
-]
+
 source_suffix = ['.rst', '.md']
