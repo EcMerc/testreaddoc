@@ -36,7 +36,14 @@ epub_show_urls = 'footnote'
 
 
 extensions = [
-    "sphinx.ext.autodoc",
     "myst_parser",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.intersphinx",
+    "sphinx.ext.viewcode",
+    "sphinxcontrib.bibtex",
+#    "sphinx_panels",
+    "sphinxext.rediraffe",
+    "sphinxcontrib.mermaid",
+    "sphinxext.opengraph",
 ]
 source_suffix = ['.rst', '.md']
